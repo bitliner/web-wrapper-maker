@@ -1,0 +1,6 @@
+Choose a page:
+<select [(ngModel)]="selectedPage" name="selectedPage" (change)="selectPage.emit(selectedPage)">
+      <option *ngFor="let page of pages" [ngValue]="page">{{page.name}}</option>
+  </select>
+<br/> Code:
+<textarea></textarea>
