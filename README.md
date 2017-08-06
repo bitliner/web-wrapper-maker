@@ -20,6 +20,21 @@ Starting from leafs to the root node:
 - for each node, determine *c* as count how many same nodes there are in its parent
 - the node with the maximum *c* is the container (assumption)
 
+### Code
+
+Pseudo code:
+
+```javascript
+html=$('<div>').append($.parseHTML('<html><body><h1>Title</h1><p>this is the first</p><div><h2>Title 2</h2><p>Hello zio!</p></div></body></html>'))
+
+c=[]
+for i in $(html).children():
+  c[1].element = i
+  c[0].count = $(i).children().length
+for i in c:
+  print c.element, c.count
+```
+
 ### Experiment
 
 1. test it on HackerNnews
