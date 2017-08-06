@@ -8,11 +8,11 @@ Automatically determine rules for a web-wrapper
 HTML elements that are interesting for a web-wrapper can be divided in 2 categories
 
 - container
-- details elements
+- details element
 
-The container contains details elements. 
+The "container" contains a set of "details element". 
 
-Examples of Details elements are: a field cotaining a date; the name of the author of a content; location; etc.
+Examples of details elements are: a field cotaining a date; the name of the author of a content; location; etc.
 
 ## Algorithm for identifying containers
 
